@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFMainViewKit_Example' do
+  pod 'FFMainViewKit', :path => '../'
+
+  target 'FFMainViewKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
